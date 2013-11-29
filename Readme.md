@@ -5,11 +5,17 @@
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+  Install with [component](http://component.io):
 
     $ component install leafs/array-pull
 
-## API
+## Usage
+
+```js
+var pull = require('pull');
+pull(['olivier', 'bruno', 'amy'], 'bruno', 'amy');
+// ['olivier']
+```
 
 
 

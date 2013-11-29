@@ -1,13 +1,13 @@
-var diff = require('diff');
-
-
-/**
- * Removes all provided values from the given array 
- * @param {Array} arr 
- * @return {Array} 
- * @api public
- */
+var indexOf = require('indexof');
 
 module.exports = function(arr) {
-  return diff(arr, [].slice.call(arguments, 1));
+  var args = [].slice.call(arguments, 1);
+	var l = arr.length;
+	while(l--){
+		var val = arr[l];
+		if(indexOf(args,val) > -1) {
+			arr.splice(l,1);
+		}
+	}
+	return arr;
 };
