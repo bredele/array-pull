@@ -12,9 +12,11 @@
 ## Usage
 
 ```js
+var arr = ['olivier', 'bruno', 'amy'];
 var pull = require('pull');
-pull(['olivier', 'bruno', 'amy'], 'bruno', 'amy');
-// ['olivier']
+pull(arr, 'bruno', 'amy');
+
+//arr => ['olivier']
 ```
 
 
