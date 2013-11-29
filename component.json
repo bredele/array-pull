@@ -1,0 +1,18 @@
+{
+  "name": "pull",
+  "repo": "leafs/array-pull",
+  "description": "Removes all provided values from the given array (use ===)",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "leafs/array-diff" : "*"
+    },
+  "development": {
+    "component/assert" : "*"
+    },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
