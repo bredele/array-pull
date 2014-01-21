@@ -1,4 +1,3 @@
-
 # array-pull
 
   Removes all provided values from the given array (use ===)
@@ -7,7 +6,7 @@
 
   Install with [component](http://component.io):
 
-    $ component install leafs/array-pull
+    $ component install bredele/array-pull
 
 ## Usage
 
